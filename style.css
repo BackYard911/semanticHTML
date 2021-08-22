@@ -10,6 +10,14 @@
     margin: 0 auto;
 }
 
+main{
+    margin: 50px 0;
+}
+
+.inline{
+    display: inline;
+}
+
 /* Global styling END */
 
 /* Navbar Styling */
@@ -32,3 +40,37 @@ nav{
 
 
 /* Navbar end */
+
+
+/* Profile Header */
+
+.profile-header{
+    position: relative;
+}
+
+.cover-photo{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.profile-info{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+
+.profile-pic{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border: 4px white solid;
+    /* position: absolute;
+    top: 100px;
+    left: 0px; */
+}
+
+/* Profile Header END */
+
+
+
