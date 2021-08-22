@@ -1,0 +1,34 @@
+/* Global Styling */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Global styling END */
+
+/* Navbar Styling */
+
+nav{
+    background-color: #2A3D4B;
+}
+
+
+.links{
+    float: right;
+    margin-top: 20px ;
+}
+
+.links a{
+    margin:5px;
+    text-decoration: none;
+    color: #778892;
+}
+
+
+/* Navbar end */
