@@ -11,74 +11,70 @@
 
 <body>
     <!-- Navbar starts here -->
-    <nav>
+    <header>
         <div class="container">
-            <figure class="inline">
-                <img src="images/linkedIn-logo.png" width="40px" alt="">
-            </figure>
-            <textarea name="" id="" style="overflow:auto;resize:none" placeholder="Find people, jobs, and more"
-                cols="30" rows="2"></textarea>
-            <section class="links">
-                <a href="">Home</a>
-                <a href="">My Network</a>
-                <a href="">Jobs</a>
-                <a href="">Messaging</a>
-                <a href="">Notifications</a>
-                <a href="">Me</a>
-            </section>
+            <img src="images/linkedIn-logo.png" width="40px" alt="">
+            <form>
+                <input type="text" placeholder="Find people, jobs, and more">
+            </form>
+            <nav>
+                <ul>
+                    <li> <a href="">Home</a> </li>
+                    <li> <a href="">My Network</a> </li>
+                    <li> <a href="">Jobs</a> </li>
+                    <li> <a href="">Messaging</a> </li>
+                    <li> <a href="">Notifications</a> </li>
+                    <li> <a href="">Me</a> </li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </header>
     <!-- Navbar END -->
     <!-- Profile Header starts HERE -->
-    <section class="profile-header">
-        
+    <header class="profile-header">
         <div class="container">
-                <div class="profile">
+            <div class="profile">
                 <!-- Cover Photo -->
-                <figure class="cover-photo">
+                <div class="cover-photo">
                     <img src="images/cover-photo.jpeg" width="100%" alt="">
-                </figure>
+                </div>
                 <!-- Cover Photo END -->
-                
                 <section class="profile-info">
-                    <figure class="profile-pic">
+                    <div class="profile-pic">
                         <img src="images/profile-pic.jpg" alt="">
-                    </figure>
-                    
-                    <h3>Kambada Studio LinkedIn PSD Mockup</h3>
+                    </div>
+                    <h1>Kambada Studio LinkedIn PSD Mockup</h1>
                     <p>Digital and Motion Design-London, UK, 9,999 followers</p>
-                    
+
                     <section class="profile-links">
                         <button id="followBtn">+ Follow</button>
-                        <button id="visitWebsiteBtn">Visit website</button>
+                        <a id="visitWebsiteBtn">Visit website</a>
                         <a id="seeEmpLink" href="#">See all 9,999 employees on LinkedIn</a>
                     </section>
-                    
+
                 </section>
-                
             </div>
         </div>
-    </section>
+    </header>
     <!-- Profile Header END -->
-
     <!-- ScrollSpy starts HERE -->
-    
     <aside class="">
-
-            <a href="" class="scrollspy-item">Home</a>
-            <a href="" class="scrollspy-item">About</a>
-            <a href="" class="scrollspy-item">Life</a>
-            <a href="" class="scrollspy-item">Jobs</a>
-            <a href="" class="scrollspy-item">People</a>
-            <a href="" class="scrollspy-item">Videos</a>
-            <a href="" class="scrollspy-item">Ads</a>
+        <nav>
+            <ul>
+                <li> <a href="" class="scrollspy-item">Home</a> </li>
+                <li> <a href="" class="scrollspy-item">About</a> </li>
+                <li> <a href="" class="scrollspy-item">Life</a> </li>
+                <li> <a href="" class="scrollspy-item">Jobs</a> </li>
+                <li> <a href="" class="scrollspy-item">People</a> </li>
+                <li> <a href="" class="scrollspy-item">Videos</a> </li>
+                <li> <a href="" class="scrollspy-item">Ads</a> </li>
+            </ul>
+        </nav>
     </aside>
-
     <!-- ScrollSpy END -->
-
     <main>
         <div class="container">
-            
+
             <!-- recent posts starts HERE -->
             <section id="recentPosts">
                 <h3>Recently posted videos</h3>
@@ -86,68 +82,60 @@
                     <figure>
                         <img id="postImg" src="images/linkedIn-logo.png" width="20%" alt="">
                     </figure>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio placeat, velit reiciendis quam odit
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio placeat, velit reiciendis quam
+                        odit
                         totam veritatis mollitia esse sint dolorem nihil laborum iste debitis iusto aut ullam quia autem
                         quaerat?</p>
-    
+
                 </article>
             </section>
             <!-- recent posts END -->
-
             <!-- recent jobs starts HERE -->
             <section id="recentJobs">
                 <h3>5 recently posted jobs</h3>
                 <ul>
                     <li>
                         <div class="recent-job">
-                            <figure >
+                            <a href="">
                                 <img id="jobImg" src="images/linkedIn-logo.png" alt="" srcset="">
-                            </figure>
-                            <h6>Job title</h6>
-                            <p>Job location</p>
-
+                                <h6>Job title</h6>
+                                <p>Job location</p>
+                            </a>
                         </div>
                     </li>
                     <li>
                         <div class="recent-job">
-                            <figure >
+                            <a href="">
                                 <img id="jobImg" src="images/linkedIn-logo.png" alt="" srcset="">
-                            </figure>
-                            <h6>Job title</h6>
-                            <p>Job location</p>
-
+                                <h6>Job title</h6>
+                                <p>Job location</p>
+                            </a>
                         </div>
                     </li>
                 </ul>
             </section>
             <!-- recent jobs END -->
         </div>
-
-
     </main>
-
     <!-- Affiliated pages starts HERE -->
     <aside>
         <section id="relatedPages">
             <h3>Affiliated pages</h3>
             <div class="affiliated-page">
-                <figure>
-                    <img id="affiliatedPageImg" src="images/linkedIn-logo.png" alt="">
-                </figure>
-                <h3>An Affiliated page</h3>
+                <img id="affiliatedPageImg" src="images/linkedIn-logo.png" alt="">
+                <a href="">
+                    <h3>An Affiliated page</h3>
+                </a>
                 <p>title of page</p>
                 <p>number of followers</p>
+                <button>Follow +</button>
             </div>
         </section>
-
         <section id="jobsAvailble">
-            <button>See jobs</button>
+            <a>See jobs</a>
         </section>
     </aside>
     <!-- Affiliated pages END -->
-
-
-
 </body>
 
 </html>
